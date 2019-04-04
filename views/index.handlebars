@@ -1,4 +1,4 @@
-<h1>Burgers!</h1>
+<h1>🍔 Burgers! 🍔</h1>
 
 <table>
   <tr>
@@ -7,14 +7,14 @@
   </tr>
   <tr>
     <td>
-      {{#each burger}}
+      {{#each burgers}}
       {{#if devoured}}
       {{> burger/burger-block devour=false}}
       {{/if}}
       {{/each}}
     </td>
     <td>
-      {{#each burger}}
+      {{#each burgers}}
       {{#unless devoured}}
       {{> burger/burger-block devour=true}}
       {{/unless}}
@@ -28,14 +28,12 @@
 
   <div class="form-group">
     <label for="bn">Burger Name:</label>
-    <input type="text" id="bn" name="name">
+    <input style="font-size:25px;" type="text" id="bn" name="name">
   </div>
 
   <div class="form-group">
-    <label for="slee">Devoured?</label><br>
-    <input type="radio" name="devoured" value="0" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="1"> Eat me!
+    <label for="slee">Did you devour this burger already? </label><input type="radio" name="devoured" value="0" checked> Yes! <input type="radio" name="devoured" value="1"> No!
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button type="submit">Add Burger ❤️</button>
 </form>

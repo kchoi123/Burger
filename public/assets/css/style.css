@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  width: 500px;
+  width: 700px;
 }
 
 h1 {
@@ -8,12 +8,16 @@ h1 {
 }
 
 table {
-  width: 500px;
+  width: 700px;
 }
 
 tr {
   padding: 5px;
   background: #faebd7;
+}
+
+div {
+  margin-left: 10px;
 }
 
 h2 {
@@ -28,6 +32,7 @@ h2 {
   padding: 5px;
   margin: 5px;
   background: aqua;
+  text-align: center;
 }
 
 .form-group {
