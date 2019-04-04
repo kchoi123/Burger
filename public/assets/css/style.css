@@ -16,6 +16,10 @@ tr {
   background: #faebd7;
 }
 
+td {
+  width: 50%;
+}
+
 div {
   margin-left: 10px;
 }
